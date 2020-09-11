@@ -1,0 +1,63 @@
+.cssUser{
+    display: flex;
+    border: 2px outset #fff;
+    border-radius: 2rem;
+    width: 277.5px;
+    height: 796px;
+    background-color: rgb(241, 243, 246);
+    align-items: center;
+    flex-direction: column;
+}
+.header_left_top{
+    margin-top: 20px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:2px outset #FFF;
+    padding: 5px;
+    border-radius: 2rem;
+    box-shadow:  inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;;
+
+}
+
+.list:hover{
+    box-shadow: -2px -2px 5px #000;
+}
+.list p{
+    margin: 0;
+}
+.list img{
+    height: 20px;
+    width: 20px;
+    fill: #f56c6d;
+    stroke: #f56c6d;
+}
+
+.list_all{
+    width: 229px;
+    height: 43px;
+    list-style: none;
+}
+.ul_item{
+    padding: 0;
+}
+.list_icon{
+    margin-right:5px;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+
+}
+.ul_icon{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
