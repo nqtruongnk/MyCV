@@ -1,52 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>MyCV</title>
-</head>
-<body>
-    <div class="cssUser">
-        <div class="header_left_top">
-            <img src="./images/avatar.jpg" class="img" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume/CV Design</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    </head>
+    <body>
+        <div class="resume">
+            <div class="resume_left">
+                <div class="resume_profile">
+                    <img src="avatar.jpg" alt="profile_pic" width="300px" height="300px">
+                </div>
+                <div class="resume_content">
+                    <div class="resume_item resume_info">
+                        <div class="title">
+                            <p class="bold">ngo quang truong</p>
+                            <p class="regular">Developer</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon"><i class="fas fa-map-signs"></i></div>
+                                <div class="data">
+                                    Cam Le - TP Da Nang
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                                <div class="data">
+                                    +84777588110                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div class="data">
+                                    nqtruongnk@gmail.com
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="resume_item resume_skills">
+                        <div class="title">
+                            <p class="bold">skill's</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="skill_name">
+                                    HTML
+                                </div>
+                                <div class="skill_progress">
+                                    <span style="width: 40%;"></span>
+                                </div>
+                                <div class="skill_per">40%</div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    ReactNative
+                                </div>
+                                <div class="skill_progress">
+                                    <span style="width: 60%;"></span>
+                                </div>
+                                <div class="skill_per">60%</div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    Git
+                                </div>
+                                <div class="skill_progress">
+                                    <span style="width: 50%;"></span>
+                                </div>
+                                <div class="skill_per">50%</div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    English
+                                </div>
+                                <div class="skill_progress">
+                                    <span style="width: 50%;"></span>
+                                </div>
+                                <div class="skill_per">50%</div>
+                            </li>
+                            <li>
+                                <div class="skill_name">
+                                    Javascript
+                                </div>
+                                <div class="skill_progress">
+                                    <span style="width: 40%;"></span>
+                                </div>
+                                <div class="skill_per">40%</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume-item resume_social">
+                        <div class="title">
+                            <p class="bold">Social</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon"><i class="fab fa-facebook"></i></div>
+                                <div class="data">
+                                    <p class="semi_bold">
+                                        Facebook
+                                    </p>
+                                    <p>https://bitly.com.vn/2o6u8</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fab fa-instagram"></i></div>
+                                <div class="data">
+                                    <p class="semi_bold">
+                                        Instagram
+                                    </p>
+                                    <p>https://bitly.com.vn/jmnvf</p>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="resume_right">
+                <div class="resume_item resume_project">
+                    <div class="title">
+                        <p class="bold">Project</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="date">2017 to Currently</div> 
+                            <div class="info">
+                                <p class="semi-bold">AppStore</p> 
+                            <p>Practice using React-Native</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="date">12/2019  to 01/2020</div> 
+                            <div class="info">
+                                <p class="semi-bold">ShopFood</p> 
+                            <p>Practice using Angular 8 + Firebase</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_education">
+                    <div class="title">
+                        <p class="bold">Education</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="date">2017 - Currently</div> 
+                            <div class="info">
+                                <p class="semi-bold">Currently fourth year student</p> 
+                            <p>DaNang University Education</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_hobby">
+                    <div class="title">
+                        <p class="bold">Hobby</p>
+                    </div>
+                    <ul>
+                        <li><i class="far fa-futbol"></i></li>
+                        <li><i class="fas fa-gamepad"></i></li>
+                        <li><i class="fas fa-book"></i></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-            <h3>Ngô Quang Trưởng</h3>
-            <h5>17CNTT3</h5>
-        </div>
-        <ul class="ul_item">
-            <li class="list_all">
-                <a class="list"> 
-                    <p>Profile</p>
-                    <img src="https://www.flaticon.com/svg/static/icons/svg/848/848043.svg" >
-                </a>
-            </li>
-            <li class="list_all">
-                <a class="list"> 
-                    <p>Contact</p>
-                    <img src="https://www.flaticon.com/svg/static/icons/svg/2574/2574008.svg" >
-                </a>
-            </li>
-            <li class="list_all">
-                <a class="list"> 
-                    <p>Skill</p>
-                    <img src="https://www.flaticon.com/svg/static/icons/svg/900/900797.svg" >
-                </a>
-            </li>
-            
-        </ul>
-        <ul class="ul_icon">
-            <li class="list_icon">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width="40px" height="40px">
-            </li>
-            <li class="list_icon">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/561/561127.svg" width="40px" height="40px">
-            </li>
-            <li class="list_icon">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384031.svg" width="40px" height="40px">
-            </li>
-        </ul>
-    </div>
-</body>
+    </body>
 </html>
